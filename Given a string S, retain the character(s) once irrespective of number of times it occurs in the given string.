@@ -1,0 +1,7 @@
+n=input()        #getting str as input
+x=set(n)         #remove duplicats from the string
+l=[]             #creates an empty list to append i
+for i in x:
+  l.append(i)
+l.sort()
+print(*l,sep='')
